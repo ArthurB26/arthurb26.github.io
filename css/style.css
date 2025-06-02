@@ -23,7 +23,8 @@ body {
     -webkit-backdrop-filter: blur(10px);
     padding: 20px;
     border-radius: 12px;
-    border: 1px solid rgb(107, 255, 174);
+    position: relative;
+    box-shadow: 0 0 16px 2px #0d82cf, 0 0 5px 2px #0d82cf inset;
 }
 
 @media (max-width: 1000px) {
