@@ -76,6 +76,7 @@ nav.show {
         position: fixed;
         top: 0;
         right: -100%;
+        left: auto;
         height: 100vh;
         width: min(100vh, 100%);
         z-index: 10;
