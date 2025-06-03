@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,300,0,0&icon=menu, close');
 
-body > *:not(nav) {
-  margin: 20px 0;
-}
-
 nav {
     background-color: #2b2b2b;
     border-bottom: 1px solid #0d82cf;
+
+    position: fixed;
+    left: 0;
+    top: 0;
     margin: 0;
-    text-align: center;
     width: 100vw;
+
+    text-align: center;
+    z-index: 1000;
 }
 
 nav ul {
@@ -21,6 +23,7 @@ nav ul {
 
 nav li {
     display: flex;
+    text-align: center;
 }
 
 nav .home-li {
