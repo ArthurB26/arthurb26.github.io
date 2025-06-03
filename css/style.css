@@ -18,6 +18,8 @@ body {
     background-repeat: repeat;
 
     min-height: 100vh;
+    margin-left: 4%;
+    margin-right: 4%;
     margin: 0;
 
     display: block;
@@ -40,9 +42,4 @@ body {
     width: 100%;
     margin: 40px auto;
     display: block;
-}
-
-body > :not(nav) {
-    padding-left: 4vw;
-    padding-right: 4vw;
 }
