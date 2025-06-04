@@ -1,0 +1,29 @@
+:root {
+    --divider_color: #0d82cf;
+    --divider_width: 1px;
+}
+
+/* Dashed border */
+hr.dashed {
+  border-top: var(--divider_width)  dashed var(--divider_color);
+  color: var(--divider_color);
+}
+
+/* Dotted border */
+hr.dotted {
+  border-top: var(--divider_width) dotted var(--divider_color);
+  color: var(--divider_color);
+}
+
+/* Solid border */
+hr.solid {
+  border-top: var(--divider_width)  solid var(--divider_color);
+  color: var(--divider_color);
+}
+
+/* Rounded border */
+hr.rounded {
+  border-top: calc(var(--divider_width) * 3) solid var(--divider_color);
+  border-radius: 5px;
+  color: var(--divider_color)
+}
